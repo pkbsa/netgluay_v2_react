@@ -1,0 +1,65 @@
+.homepage{
+    flex: 4;
+    background-color: #f4f4f9d8;
+    border: 3px black;
+}
+
+.mainboxhome1{
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    height: calc(100vh - 100px);
+}
+
+.loginbox h1{
+    font-size: 120px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.loginbox{
+    padding: 6%;
+    padding-top: 6%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5%;
+}
+
+.loginbox button{
+    width: 150px;
+    height: 50px;
+    border-radius: 60px;
+    background-color: rgb(255, 255, 255);
+    border: 1px  solid rgb(250, 26, 26);
+    color: rgb(255, 32, 32);
+}
+.loginbox button:hover{
+  
+    background-color: rgb(250, 26, 26);
+    color: rgb(255, 255, 255);
+}
+
+.loginbox input{
+    background-color: white;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    opacity: 80%;
+    width: 350px;
+    height: 30px;
+    font-size: 20px;
+}
+
+.loginbox label{
+    font-weight: 300;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}

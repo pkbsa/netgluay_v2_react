@@ -1,0 +1,24 @@
+.topbar {
+  width: 100%;
+  height: 10%;
+  background-color: #F4F4F9;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.contenthome{
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+}
+.contenthome span{
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.contenthome a{
+  text-decoration: none;
+  color: black;
+}

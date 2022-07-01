@@ -1,0 +1,72 @@
+.main{
+    flex: 4;
+    background-color: #F4F4F9;
+    height: 90%;
+}
+
+.table{
+    background-color: white;
+    -webkit-box-shadow: 0px 0px 15px -10px black;
+    margin: 50px;
+}
+.table svg:hover{
+    cursor: pointer;
+}
+
+button{
+    height: 30px;
+    width: 60px;
+    margin : 1px;
+    margin-top: 10px;
+    border-radius: 10%;
+    border: 2px grey;
+}
+button:hover{
+    cursor: pointer;
+}
+
+#insert{
+    background-color: rgb(8, 146, 8) ;
+    color: white;
+    width: 110px;
+    height: 45px;
+}
+
+.firstRow{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    margin: 50px;
+    -webkit-box-shadow: 0px 0px 15px -10px black;
+    padding: 30px;
+    justify-content: space-between;
+    margin-top: 0;
+}
+.firstRow h3{
+    font-weight: 100;
+}
+.box h2{
+    text-align: center;
+}
+.userListEdit{
+    margin: 10px;
+}
+
+.table a{
+    margin-right: 30px;
+}
+
+.firstBox input{
+    margin: 30px;
+    background-color: white;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    opacity: 80%;
+    width: 350px;
+    height: 30px;
+    font-size: 20px;
+}
+textarea:focus, input:focus{
+    outline: none;
+}

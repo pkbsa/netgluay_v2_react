@@ -1,0 +1,25 @@
+.home{
+    flex: 4;
+    background-color: #F4F4F9;
+    height: 90%;
+}
+
+.mainbox{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 0;
+    height: 90%;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: space-around;
+}
+
+.mainbox h3{
+    font-weight: 500;
+}
+
+.mainbox h2{
+    font-weight: bold;
+}
